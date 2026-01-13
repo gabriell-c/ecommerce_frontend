@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BASE_URL } from '../../config';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,14 +7,8 @@ import {
     faStarHalfAlt,
     faShoppingBag,
     faSearch,
-    faFilter,
-    faFire,
-    faTag,
-    faTruck,
-    faShieldAlt,
     faChevronRight,
     faHeart,
-    faExchangeAlt,
     faEye,
     faXmark
 } from '@fortawesome/free-solid-svg-icons';

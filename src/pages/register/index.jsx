@@ -4,8 +4,7 @@ import Logo from '../../../public/imgs/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaCheck } from "react-icons/fa";
 import { 
-  faUser, faEnvelope, faLock, faPhone, 
-  faCalendarAlt, faEye, faEyeSlash,
+  faUser, faEnvelope, faLock, faEye, faEyeSlash,
   faArrowRight, faSpinner
 } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { Link, useLocation, useParams, useNavigate } from "react-router-dom";
 import Fuse from "fuse.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

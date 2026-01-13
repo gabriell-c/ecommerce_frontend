@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus, faCircleNotch, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { Snackbar, Alert, IconButton } from '@mui/material';
+import { Alert, IconButton } from '@mui/material';
 import { BASE_URL } from '../../config';
 
 const AddToCartButton = ({ productId, productName }) => {

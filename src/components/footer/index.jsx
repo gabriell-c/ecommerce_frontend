@@ -1,4 +1,4 @@
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter, BsArrowRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import Logo from '../../../public/imgs/logo_orange.png'
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";

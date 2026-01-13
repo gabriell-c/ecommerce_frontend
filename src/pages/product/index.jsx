@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Shipping from '../../components/shipping'
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Fuse from "fuse.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,16 +13,12 @@ import {
     faTimes,
     faStar,
     faHeart,
-    faEye,
     faChevronRight,
-    faChevronLeft,
     faTag,
     faCheck,
     faBolt,
     faFire,
-    faCrown,
-    faBars,
-    faSlidersH
+    faCrown
 } from "@fortawesome/free-solid-svg-icons";
 import { Alert, IconButton, Chip, Drawer } from "@mui/material";
 import { BASE_URL } from "../../config";
